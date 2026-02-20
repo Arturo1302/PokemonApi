@@ -16,3 +16,49 @@
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+
+.imagenPokemon{
+   display: block;
+   position: absolute;
+   bottom: 55%;
+   left:50%;
+   transform: translate(-63%,20%);
+   height: 16%;
+}
+
+.buttons{
+   position: absolute;
+   bottom: 10%;
+   left: 50%;
+   width: 65%;
+   transform: translate(-57%, 0);
+   display: flex;
+   gap: 20px;
+}
+
+button{
+   width: 25%;
+   padding: 1%;
+   border: 2px solid #000;
+   border-radius: 5px;
+   font-size: clamp(8px, 5vw, 1rem);
+   font-weight: 600;
+   color: #fff;
+   background-color: #444;
+   box-shadow: -2px 3px 0 #222, -4px 6px #000;
+   cursor: pointer;
+
+}
+/* .btn{
+   
+   width: 25%;
+   padding: 1%;
+   border: 2px solid #000;
+   border-radius: 5px;
+   font-size: clamp(8px, 5vw, 1rem);
+   font-weight: 600;
+   color: #fff;
+   background-color: #444;
+   box-shadow: -2px 3px 0 #222, -4px 6px #000;
+   cursor: pointer;
+} */
