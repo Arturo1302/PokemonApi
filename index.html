@@ -5,18 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link reel="shortcut" href="./media/favicon-16x16.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap&#39;)">
 </head>
 <body>
-    <img src="./media/pokedex .png" alt="pokedex" class="pokedex">
-
-    <img class="imagenPokemon" src="" alt="pokemon">
-    <h1 class="nombrePokemon"></h1>
-
-    <div class="buttons">
-        <button id="prev" class="btn"><-  Anterior</button>
-        <button id="next" class="btn">Siguiente  -></button>
-    </div>
+    <main>
+        
+        
+        <img src="" class="pokemon__image" alt=""> 
+        <h1 class="pokemon_data">
+            <span class="pokemon_number"></span>
+            <span class="pokemon_name"></span>
+        </h1>    
+        <form class="form">
+            <input type="search" class="input_search" placeholder="Name or Number" required>
+        </form>
+    
+        <div class="buttons">
+            <button id="prev" class="button btn-prev"><-  Anterior</button>
+            <button id="next" class="button btn-next">Siguiente  -></button>
+        </div>
+        <img class="pokedex" src="./media/pokedex .png" alt="pokedex" class="pokedex">
+        <audio autoplay src="" class="gritos"></audio>
+    </main>    
 </body>
 <script src="./scrips/pokemon.js"></script>
 </html>
